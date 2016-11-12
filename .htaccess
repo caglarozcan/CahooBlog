@@ -36,6 +36,6 @@ RewriteRule ^([a-z-]+)/$ index.php?kat=$1&page=1 [QSA,L]
 RewriteRule ^([a-z-]+)/([0-9]+)$ index.php?kat=$1&page=$2 [QSA,L]
 
 
-ErrorDocument 401 http://www.caglarozcan.com.tr
-ErrorDocument 403 http://www.caglarozcan.com.tr
-ErrorDocument 404 http://www.caglarozcan.com.tr
+ErrorDocument 401 http://www.domain.com
+ErrorDocument 403 http://www.domain.com
+ErrorDocument 404 http://www.domain.com
